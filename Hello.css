@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(176, 247, 176);
+}
+
+#myLb{
+ display: block;
+ text-align: center;
+ font-size: 10em;
+ font-family: Verdana;
+}
+
+#div1{
+    text-align: center;
+}
+
+button{
+    font-size: 30px;
+    font-family: Verdana;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px;
+    background-color: rgb(239, 238, 238);
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+
+button:hover{
+    background-color:rgb(196, 196, 196);
+    box-shadow: 3px 4px 5px;
+}
